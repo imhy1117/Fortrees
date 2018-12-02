@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager">
+      <UniqueIdentifier>{608e5413-2a92-4480-9947-babe54aea05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{ef28b42a-8eba-403f-8c71-ae54eacc7245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Missile">
+      <UniqueIdentifier>{9bd0ca96-a0df-4780-8503-f69016b21e34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_game.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="GameUI.cpp" />
+    <ClCompile Include="MissileManager.cpp">
+      <Filter>DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldManager.cpp">
+      <Filter>DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_command.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_double.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_health.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_power.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_teleport.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile_redBall.cpp">
+      <Filter>Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile_teleport.cpp">
+      <Filter>Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Scene_title.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_game.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="DefineData.h" />
+    <ClInclude Include="GameUI.h" />
+    <ClInclude Include="MissileManager.h">
+      <Filter>DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldManager.h">
+      <Filter>DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_command.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_double.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_health.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_power.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_teleport.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile_redBall.h">
+      <Filter>Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile_teleport.h">
+      <Filter>Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="Scene_title.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
